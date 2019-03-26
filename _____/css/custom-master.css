@@ -1,0 +1,101 @@
+.sidebar-icon{
+    font-size: 18px;
+}
+.card-header{
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc !important;
+}
+.image-preview, #callback-preview{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+.form-control{
+    height: 42px;
+}
+div.dataTables_wrapper div.dataTables_length select{
+    width: 100px;
+    height: 32px;
+}
+div.dataTables_wrapper div.dataTables_filter input{
+    height: 32px;
+}
+a{
+    text-decoration: none !important;
+}
+.img-carousel{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.card-header.detail{
+    display: block;
+    position: relative;
+    border: none !important;
+}
+.brand-detail{
+    position: absolute;
+}
+.brand-detail img{
+    width: 90px;
+    height: 90px;
+}
+.kop_detail{
+    width: 100%;
+    padding-left: 90px;
+    text-align: center;
+}
+.instruksi{
+    padding: 10px 25px;
+    border: 1px solid #999;
+    height: 350px;
+    border-right: none;
+}
+.terusan{
+    padding: 10px 25px;
+    border: 1px solid #999;
+    height: 350px;
+}
+.line{
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    height: 5px;
+    margin: 0 20px;
+}
+.tableprint{
+    width: 100%;
+    margin: 20px 0;
+}
+.tableprint tr th{
+    border-top: 1px solid #999 !important;
+    border: 1px solid #999;
+    padding: 1rem;
+}
+.tableprint tr td{
+    border: 1px solid #999;
+    padding: .75rem;
+}
+.btn-print{
+    margin: 20px 0;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.tanggal_surat{
+    width: 150px;
+}
+@media (max-width: 1700px){
+    .btn{
+        line-height: 25px;
+    }
+}
+@media (max-width: 1400px){
+    .btn{
+        line-height: 23.5px;
+    }
+}
+@media (max-width: 1200px){
+    .btn{
+        line-height: 24px;
+    }
+}
